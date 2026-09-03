@@ -1,16 +1,81 @@
-# React + Vite
+# React Note App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and efficient note-taking web application built with React where users can create, read, update, and delete notes. Built using React, Tailwind CSS, and Lucide React icons.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+* Create new notes
+* View all notes
+* Edit existing notes
+* Delete notes
+* Search and filter notes
+* Local storage persistence
+* Clean and minimalist UI
+* Responsive design
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
+* React
+* Tailwind CSS
+* Lucide React Icons
+* Vite
+* Local Storage API
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📌 Functionalities
+
+### Create Note
+
+Users can create new notes with a title and content.
+
+### Edit Note
+
+Users can modify and update existing notes.
+
+### Delete Note
+
+Users can remove notes with ease.
+
+### Local Storage
+
+All notes are saved in browser local storage for persistence.
+
+### Responsive UI
+
+Works seamlessly on desktop, tablet, and mobile devices.
+
+---
+
+## 📂 Project Structure
+
+```bash
+src/
+├── components/
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+## 📚 Learning Outcomes
+
+Through this project, I learned:
+
+* React fundamentals
+* React Hooks (`useState`, `useEffect`)
+* Tailwind CSS styling
+* Local Storage management
+* Component-based architecture
+* State management basics
+
+---
+
+## 🌐 Live Demo
+
+[https://note-app-rct.vercel.app/](https://note-app-rct.vercel.app/)
+
+---
